@@ -36,20 +36,28 @@ A simple full-stack web application for managing advertising campaigns. It allow
 
 ### Backend (Spring Boot - API)
 
-Navigate to the campaignmanager folder in your IDE (e.g., IntelliJ IDEA) and run the main class:
+After cloning repository navigate to the campaignmanager folder in your IDE (e.g., IntelliJ IDEA) and run the main class:
 
 CampaignmanagerApplication.java
 
-You can test the API directly via:
+If you do not have IDE, then you can use Maven from terminal to run it:
+
+`cd campaignmanager`
+
+`mvn spring-boot:run`
+
+You can test the API directly via (once running):
 
 http://localhost:8080/api/campaigns (REST endpoint)
 
 ### Frontend (React App)
 In your terminal, navigate to the directory containing the campaign-manager-frontend folder and run:
 
-cd campaign-manager-frontend
-npm install
-npm start
+`cd campaign-manager-frontend`
+
+`npm install`
+
+`npm start`
 
 This will start the React frontend at:
 
